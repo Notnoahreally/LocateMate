@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LocateMate</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      header img {
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input[type="text"] {
+        width: 300px;
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+      }
+
+      button[type="submit"] {
+        padding: 5px 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+    <script>
+      window.onload = function() {
+        alert("Welcome to LocateMate! Warning this is only a test");
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVs5sWITdvfdWLN00Al5Y2Y2yJV3fKe9BITQ&usqp=CAU" alt="logo">
+      <h1>LocateMate</h1>
+    </header>
+    <form action="https://duckduckgo.com/">
+      <input type="text" name="q" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+    <main>
+      <p>Search results will be displayed here.</p>
+    </main>
+    <footer>
+      <p>&copy; 2023 NoahCorp.</p>
+    </footer>
+  </body>
+</html>
